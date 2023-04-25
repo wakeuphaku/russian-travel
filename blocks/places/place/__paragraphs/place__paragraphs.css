@@ -1,0 +1,8 @@
+.place__paragraphs {
+  width: 484px;
+  margin: 0;
+  gap: 26px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}

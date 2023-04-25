@@ -1,0 +1,12 @@
+.cover {
+  width: 1184px;
+  height: 740px;
+  background-image: url('/images/__background.png');
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+}
