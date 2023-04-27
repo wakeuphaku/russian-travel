@@ -9,3 +9,27 @@
   color: #ffffff;
   text-decoration: none;
 }
+.footer__link:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 1023px) {
+  .footer__link {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+  }
+}
+@media screen and (max-width: 319px) {
+  .footer__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    color: #ffffff;
+  }
+}

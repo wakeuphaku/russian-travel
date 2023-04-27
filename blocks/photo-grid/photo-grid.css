@@ -7,3 +7,30 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px 16px;
 }
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    width: 928px;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    width: 720px;
+
+    margin-top: 88px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 16px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .photo-grid {
+    width: 288px;
+
+    margin-top: 64px;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

@@ -7,8 +7,29 @@
   line-height: 16px;
   /* identical to box height, or 114% */
 
-  text-align: right;
-
   color: #ffffff;
   margin-right: 48px;
+}
+@media screen and (max-width: 1023px) {
+  .footer__copyright {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+  }
+}
+@media screen and (max-width: 319px) {
+  .footer__copyright {
+    margin: 0;
+    margin-left: 16px;
+    margin-top: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #ffffff;
+  }
 }

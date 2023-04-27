@@ -14,3 +14,26 @@
   margin: 0;
   margin-top: 32px;
 }
+@media screen and (max-width: 1023px) {
+  .cover__subtitle {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+  }
+}
+@media screen and (max-width: 319px) {
+  .cover__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+    min-width: 288px;
+    text-align: center;
+    margin-top: 16px;
+    color: #ffffff;
+  }
+}

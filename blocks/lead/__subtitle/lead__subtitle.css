@@ -7,5 +7,26 @@
   text-align: center;
   margin: 0;
   margin-top: 32px;
-  width: 640px;
+  max-width: 640px;
+}
+@media screen and (max-width: 1023px) {
+  .lead__subtitle {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+  }
+}
+@media screen and (max-width: 319px) {
+  .lead__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 288px;
+  }
 }
