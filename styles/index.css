@@ -35,5 +35,5 @@
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
-@import url('../blocks/intro/__list/_thin/intro__list_thin.css');
+@import url('../blocks/intro/__span/intro__span.css');
 @import url('../blocks/cover/__link/cover__link.css');

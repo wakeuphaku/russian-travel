@@ -15,9 +15,9 @@
 }
 @media screen and (max-width: 319px) {
   .footer__links {
-    min-width: 100%;
     flex-direction: column;
     margin: 0;
     margin-left: 16px;
+    max-width: 186px;
   }
 }
