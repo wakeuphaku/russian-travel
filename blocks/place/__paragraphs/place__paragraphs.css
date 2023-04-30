@@ -7,20 +7,20 @@
   margin-top: 48px;
   padding-left: 40px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .place__paragraphs {
     max-width: 456px;
     padding-left: 32px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .place__paragraphs {
     max-width: 352px;
     padding-left: 28px;
   }
 }
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 767px) {
   .place__paragraphs {
     max-width: 288px;
     padding-left: 0;

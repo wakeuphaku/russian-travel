@@ -4,18 +4,18 @@
   margin-top: 92px;
   margin-bottom: 24px;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .footer {
     margin-top: 92px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .footer {
     margin-top: 88px;
   }
 }
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
     margin-top: 64px;
