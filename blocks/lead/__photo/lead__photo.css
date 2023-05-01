@@ -2,3 +2,16 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1279px) {
+  .lead__photo {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__photo {
+  }
+}
+@media screen and (max-width: 767px) {
+  .lead__photo {
+  }
+}

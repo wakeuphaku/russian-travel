@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 1023px) {
   .footer__links {
+    margin-left: 24px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -19,5 +20,6 @@
     margin: 0;
     margin-left: 16px;
     max-width: 186px;
+    gap: 32px;
   }
 }

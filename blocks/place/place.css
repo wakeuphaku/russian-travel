@@ -4,4 +4,20 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  margin-top: 80px;
+}
+@media screen and (max-width: 1279px) {
+  .place {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    margin-top: 73px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place {
+    margin-top: 50px;
+  }
 }
